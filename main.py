@@ -54,10 +54,10 @@ async def search(bot, update):
         channel_link = result["channel"]["link"]
         description = f"{views_short} | {duration}"
         details = f"**Title:** {title}" + "\n" \
-        f"**Channel:** [{channel_name}]({channel_link})" + "\n" \
-        f"**Duration:** {duration_text}" + "\n" \
-        f"**Views:** {views}" + "\n" \
-        f"**Published Time:** {publishedtime}" + "\n" \
+        f"**👑 Channel:** [{n}]({channel_link})" + "\n" \
+        f"**🕜Duration:** {duration_text}" + "\n" \
+        f"**👁️‍🗨️ Views:** {views}" + "\n" \
+        f"**⏰ Published Time:** {publishedtime}" + "\n" \
         "\n" + "**Made by @FayasNoushad**"
         thumbnail = ytthumb.thumbnail(result["id"])
         reply_markup = InlineKeyboardMarkup(
