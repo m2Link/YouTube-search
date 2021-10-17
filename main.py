@@ -32,7 +32,7 @@ async def text(bot, update):
         [
               InlineKeyboardButton(text="Search here", switch_inline_query_current_chat="")],
               InlineKeyboardButton(text="Search in another chat", switch_inline_query="")]
-        ]
+        )
     )
     await update.reply_text(
         text=text,
