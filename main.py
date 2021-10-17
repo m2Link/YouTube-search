@@ -56,7 +56,7 @@ async def search(bot, update):
         details = f"**** {title}" + "\n" "\n"
         f"**👑 Channel::** [{channel_name}]({channel_link})" + "\n" "\n"
         f"**🕒 Duration:** {duration_text}" + "\n" "\n"   
-        f"**👁️‍🗨️ Views:** {views}" + "\n" \ 
+        f"**👁️‍🗨️ Views:** {views}" + "\n" "\n" 
         f"**⏰Published Time:** {publishedtime}" + "\n" "\n"
         "\n" + "**Made by @FayasNoushad**"
         thumbnail = ytthumb.thumbnail(result["id"])
