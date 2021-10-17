@@ -1,14 +1,14 @@
 {
-    "name": "Pixel Drain",
-    "description": "Pixel Drain Video Stemming Bot ",
+    "name": "YouTube Search Bot",
+    "description": "YouTube Video Search bot  ",
     "logo": "https://i.imgur.com/gv2SzKr.jpg",
     "keywords": [
         "Telegram",
         "Bots",
-        "Pixel Drain",
-        "Media Streaming"
+        "YouTube",
+        "Search Bot"
     ],
-    "repository": "https://github.com/m2Link/Pixeldrain-bot",
+    "repository": "https://github.com/m2Link/YouTube-search/tree/main",
     "website": "https://telegram.dog/AmineSoukara",
     "success_url": "https://t.me/DamienSoukara",
     "env": {
@@ -22,10 +22,6 @@
         },
         "BOT_TOKEN": {
             "description": "Get this from @BotFather XD",
-            "required": true
-        },
-        "PIXELDRAIN": {
-            "description": "Genius Api From Here : https://pixeldrain.com/user/api_keys",
             "required": true
         }
     },
