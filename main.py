@@ -26,8 +26,8 @@ async def text(bot, update):
     reply_markup = InlineKeyboardMarkup(
         [
            [
-              InlineKeyboardButton("Updates Channel", url="https://t.me/m2botz'),
-              InlineKeyboardButton("Support Group", url="https://t.me/m2botzsupport')
+              InlineKeyboardButton('Updates Channel', url='https://t.me/m2botz'),
+              InlineKeyboardButton('Support Group', url='https://t.me/m2botzsupport')
         ],
         [
               InlineKeyboardButton(text="Search here", switch_inline_query_current_chat="")],
