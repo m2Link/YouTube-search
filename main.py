@@ -22,7 +22,7 @@ Bot = Client(
 
 @Bot.on_message(filters.private & filters.all)
 async def text(bot, update):
-    text = "Search youtube videos using below buttons.\n\nMade by @FayasNoushad"
+    text = "Iam a simple YouTube Search Bot.I Can Search Videos From Youtube. Use me inline\n\nMade With ❤ BY @M2Botz"
     reply_markup = InlineKeyboardMarkup(
         [
             [InlineKeyboardButton(text="Search here", switch_inline_query_current_chat="")],
@@ -58,11 +58,11 @@ async def search(bot, update):
         f"**🕜Duration:** {duration_text}" + "\n" \
         f"**👁️‍🗨️ Views:** {views}" + "\n" \
         f"**⏰ Published Time:** {publishedtime}" + "\n" \
-        "\n" + "**Made by @FayasNoushad**"
+        "\n" + "**Made With ❤ BY @M2Botz**"
         thumbnail = ytthumb.thumbnail(result["id"])
         reply_markup = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton(text="Watch Video 📹", url=result["link"])]
+                [InlineKeyboardButton(text="📽️Watch Video📽️", url=result["link"])]
             ]
         )
         try:
