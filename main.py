@@ -25,6 +25,10 @@ async def text(bot, update):
     text = "Iam a simple YouTube Search Bot.I Can Search Videos From Youtube. Use me inline\n\nMade With ❤ BY @M2Botz"
     reply_markup = InlineKeyboardMarkup(
         [
+            [InlineKeyboardButton("Updates Channel", url="https://t.me/m2botz")],
+            [InlineKeyboardButton("Support Group", url="https://t.me/m2botzsupport")],
+        ],
+        [
             [InlineKeyboardButton(text="Search here", switch_inline_query_current_chat="")],
             [InlineKeyboardButton(text="Search in another chat", switch_inline_query="")]
         ]
